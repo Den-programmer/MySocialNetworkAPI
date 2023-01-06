@@ -1,0 +1,38 @@
+{
+  "name": "mysocialnetworkapi",
+  "version": "1.0.0",
+  "description": "rest api for social network",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den-programmer/MySocialNetworkAPI.git"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "rest",
+    "api",
+    "social",
+    "network"
+  ],
+  "author": "Denis Grigorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Den-programmer/MySocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/Den-programmer/MySocialNetworkAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
